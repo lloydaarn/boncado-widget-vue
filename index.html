@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Table Booking Widget Demo</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f3f4f6;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Table Booking Widget Demo</h1>
+
+  <!-- Basic usage -->
+  <table-booking-widget></table-booking-widget>
+
+  <!-- With custom props -->
+  <!-- 
+    <table-booking-widget
+      title="Book Your Table"
+      max-guests="8"
+      primary-color="#8b5cf6"
+      api-endpoint="https://api.example.com/bookings"
+    ></table-booking-widget>
+    -->
+
+  <script type="module" src="/src/main.ce.js"></script>
+
+  <script>
+    document
+      .querySelector("table-booking-widget")
+      .addEventListener("booking-confirmed", (e) => {
+        console.log("Booking confirmed:", e.detail);
+      });
+  </script>
+</body>
+
+</html>
