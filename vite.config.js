@@ -10,21 +10,23 @@ export default defineConfig(({ mode }) => ({
   define: {
     "process.env.NODE_ENV": JSON.stringify(mode),
   },
+  // In dev mode, Vite uses index.html which points to main.dev.js
+  // No special config needed for dev
   build:
     mode === "widget"
       ? {
-        lib: {
-          entry: "./src/main.ce.js",
-          name: "TableBookingWidget",
-          fileName: "table-booking-widget",
-          formats: ["iife"],
-        },
-        rollupOptions: {
-          output: {
-            inlineDynamicImports: true,
+          lib: {
+            entry: "./src/main.ce.js",
+            name: "TableBookingWidget",
+            fileName: "table-booking-widget",
+            formats: ["iife"],
           },
-        },
-        cssCodeSplit: false,
-      }
+          rollupOptions: {
+            output: {
+              inlineDynamicImports: true,
+            },
+          },
+          cssCodeSplit: false,
+        }
       : {},
 }));

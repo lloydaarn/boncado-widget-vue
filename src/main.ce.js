@@ -9,3 +9,10 @@ customElements.define("table-booking-widget", TableBookingElement);
 
 // Export for manual registration if needed
 export { TableBookingElement };
+
+// self-mount safely
+customElements.whenDefined('table-booking-widget').then(() => {
+    if (!document.querySelector('table-booking-widget')) {
+        document.body.appendChild(document.createElement('table-booking-widget'));
+    }
+});

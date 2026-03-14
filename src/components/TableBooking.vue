@@ -199,7 +199,7 @@ function resetForm() {
 </script>
 
 <style>
-:host {
+.booking-widget {
     --primary-color: v-bind(primaryColor);
     --primary-hover: color-mix(in srgb, var(--primary-color) 85%, black);
     --bg-color: #ffffff;
