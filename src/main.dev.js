@@ -1,12 +1,8 @@
 import { createApp } from "vue";
-import TableBooking from "./components/TableBooking.vue";
+import BoncadoWidget from "./components/BoncadoWidget.vue";
 
-const app = createApp(TableBooking, {
-  // Default dev props — adjust as needed
-  title: "Reserve a Table",
-  maxGuests: 10,
-  apiEndpoint: "",
-  primaryColor: "#2563eb",
+const app = createApp(BoncadoWidget, {
+  uid: "a7b4374c-3323-4fd6-ba61-e98f727b920f",
 });
 
 app.mount("#app");

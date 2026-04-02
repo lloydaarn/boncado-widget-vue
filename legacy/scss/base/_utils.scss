@@ -1,0 +1,85 @@
+.text-underline {
+    text-decoration: underline;
+}
+
+.fw-thin {
+    font-weight: 100 !important;
+}
+
+.fw-light {
+    font-weight: 300 !important;
+}
+
+.fw-normal {
+    font-weight: 400 !important;
+}
+
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+.fw-semibold {
+    font-weight: 600 !important;
+}
+
+.fw-bold {
+    font-weight: 700 !important;
+}
+
+.fw-extrabold {
+    font-weight: 800 !important;
+}
+
+.fw-black {
+    font-weight: 900 !important;
+}
+
+.fs-italic {
+    font-style: italic;
+}
+
+.anchor-overlay {
+    @include inset(0);
+    position: absolute;
+    z-index: 3;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.mw-0 {
+    min-width: 0 !important;
+}
+
+.bg-gray-2 {
+    background-color: #edf1f5;
+}
+
+.bg-gray-3 {
+    background-color: #f3f3f3;
+}
+
+.rotate-45 {
+    transform: rotate(45deg);
+}
+
+.lh-sm {
+    line-height: 1.2 !important;
+}
+
+.title-font {
+    font-family: var(--title-font);
+}
+
+.text-font {
+    font-family: var(--text-font);
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+.text-primary {
+    color: var(--bs-primary) !important;
+}

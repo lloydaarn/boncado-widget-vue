@@ -1,0 +1,597 @@
+{
+    "session": {
+        "uid": "a7b4374c-3323-4fd6-ba61-e98f727b920f",
+        "theme": {
+            "primaryColor": "#cf0572",
+            "headerColor": "#282828",
+            "titleFont": "Rubik, sans-serif",
+            "textFont": "Nunito, sans-serif",
+            "position": "bottom_right",
+            "borderRadius": "24px",
+            "shadow": "4px 4px 19px 1px rgba(0,0,0,0.4)"
+        },
+        "purchaseVoucher": {
+            "name": "buy_voucher"
+        },
+        "purchaseProduct": {
+            "name": "purchase_products",
+            "enabled": true,
+            "products": null,
+            "formData": {
+                "isPanelActive": false,
+                "currentView": "catalog",
+                "viewHistory": [
+                    "catalog"
+                ],
+                "activeProduct": [],
+                "cart": [],
+                "delivery_option": null,
+                "delivery_type": null,
+                "delivery_vendor": null,
+                "first_name": "",
+                "last_name": "",
+                "email": "",
+                "phone": "",
+                "street": "",
+                "house_number": "",
+                "city": "",
+                "postal": "",
+                "is_billing_same_as_shipping": true,
+                "billing_first_name": "",
+                "billing_last_name": "",
+                "billing_email": "",
+                "billing_phone": "",
+                "billing_street": "",
+                "billing_house_number": "",
+                "billing_city": "",
+                "billing_postal": ""
+            }
+        },
+        "bookAppointment": {
+            "name": "book_appointment",
+            "enabled": true,
+            "deposit_mode": "preauthorization",
+            "services": [
+                {
+                    "id": "2265",
+                    "name": "test",
+                    "color": "rgba(45.966, 97.483, 211.722, 1)",
+                    "duration": "60",
+                    "staff": [
+                        "2232"
+                    ],
+                    "isActive": "true",
+                    "deposit_required": "true",
+                    "deposit_amount": "3"
+                },
+                {
+                    "id": "2280",
+                    "name": "consultation",
+                    "color": "rgba(239.965, 35.258, 35.258, 1)",
+                    "duration": "60",
+                    "staff": [
+                        "2232"
+                    ],
+                    "isActive": "true",
+                    "deposit_required": "true",
+                    "deposit_amount": "5"
+                }
+            ],
+            "formData": {
+                "isPanelActive": false,
+                "viewHistory": [
+                    "category"
+                ],
+                "currentView": "category",
+                "serviceCategory": "",
+                "reservationDate": "",
+                "reservationTime": "",
+                "firstName": "",
+                "lastName": "",
+                "email": "",
+                "phone": "",
+                "payment_method": ""
+            }
+        },
+        "bookTable": {
+            "name": "book_table",
+            "enabled": true,
+            "deposit_required": true,
+            "deposit_mode": "preauthorization",
+            "reservationCategories": [
+                {
+                    "value": "leisure_meal",
+                    "label": "Leisure meal"
+                },
+                {
+                    "value": "professional_meal",
+                    "label": "Professional meal"
+                },
+                {
+                    "value": "fast_meal",
+                    "label": "Fast meal"
+                },
+                {
+                    "value": "bday",
+                    "label": "Birthday"
+                },
+                {
+                    "value": "special_event",
+                    "label": "Special event"
+                },
+                {
+                    "value": "other",
+                    "label": "Other"
+                }
+            ],
+            "reservationRequests": [
+                {
+                    "value": "baby_chair",
+                    "label": "Baby chair"
+                },
+                {
+                    "value": "accesiblity",
+                    "label": "accesiblity"
+                },
+                {
+                    "value": "stroller",
+                    "label": "Stroller"
+                },
+                {
+                    "value": "patio",
+                    "label": "Patio"
+                },
+                {
+                    "value": "allergy_free",
+                    "label": "allergy free"
+                },
+                {
+                    "value": "pet_friendly",
+                    "label": "pet friendly"
+                },
+                {
+                    "value": "in_rush",
+                    "label": "in rush"
+                }
+            ],
+            "formData": []
+        },
+        "calls": [
+            "getMe",
+            "getProducts",
+            "updateData",
+            "updateData",
+            "getMe"
+        ]
+    },
+    "endpoint": {
+        "login": "hasgaard@gmail.com",
+        "emails": [],
+        "company": "Impulsion SPRLu",
+        "vatnumber": "BE0694.619.374",
+        "first_name": "Joël",
+        "last_name": "Lodomez",
+        "street": "Rue de Fisé",
+        "street2": "",
+        "house_number": "27b",
+        "mail_box": "",
+        "city": "Thirimont",
+        "post_code": "4950",
+        "country": "BE",
+        "phone": "+32 0496 51 59 51",
+        "mobile_phone": "",
+        "newsletter_flag": "1",
+        "language": "fr",
+        "plan": "business",
+        "expiration_date": "2020-03-07",
+        "widget": {
+            "config": {
+                "isVueApp": "true",
+                "unlabellized": "0",
+                "enabledFeatures": [
+                    "purchaseVoucher",
+                    "bookAppointment",
+                    "purchaseProduct",
+                    "bookTable"
+                ],
+                "purchaseVoucher": {
+                    "hasSuggestions": true,
+                    "hasLibrary": true
+                },
+                "theme": {
+                    "accent": "rgba(27.012, 31.382, 42.742, 1)",
+                    "btnTextColor": "rgba(255, 255, 255, 1)",
+                    "panelHeadBackgroundColor": "rgba(40, 40, 40, 1)",
+                    "panelHeadTextColor": "#ffff",
+                    "panelBodyBackgroundColor": "#fff",
+                    "panelBodyTextColor": "#333",
+                    "btnBorderRadius": "10px",
+                    "shadowY": "10px",
+                    "shadowX": "9px",
+                    "shadowBlur": "13px",
+                    "position": "bottom_right",
+                    "textFont": "Nunito, sans-serif",
+                    "titleFont": "Rubik, sans-serif"
+                },
+                "purchaseProduct": [],
+                "bookAppointment": [],
+                "bookTable": []
+            },
+            "purchaseVoucher": {
+                "name": "buy_voucher",
+                "isSubscribed": true,
+                "hasSuggestions": true,
+                "hasLibrary": true,
+                "vouchers": [
+                    {
+                        "id": "6712",
+                        "img": "https://www.boncado.be/vouchers/vou6712.jpg",
+                        "lang": "de",
+                        "public": "1"
+                    },
+                    {
+                        "id": "7439",
+                        "img": "https://www.boncado.be/vouchers/vou7439.jpg",
+                        "lang": "nl",
+                        "public": "1"
+                    },
+                    {
+                        "id": "7438",
+                        "img": "https://www.boncado.be/vouchers/vou7438.jpg",
+                        "lang": "de",
+                        "public": "1"
+                    },
+                    {
+                        "id": "7437",
+                        "img": "https://www.boncado.be/vouchers/vou7437.jpg",
+                        "lang": "fr",
+                        "public": "1"
+                    },
+                    {
+                        "id": "7404",
+                        "img": "https://www.boncado.be/vouchers/vou7404.jpg",
+                        "lang": "nl",
+                        "public": "1"
+                    },
+                    {
+                        "id": "7403",
+                        "img": "https://www.boncado.be/vouchers/vou7403.jpg",
+                        "lang": "fr",
+                        "public": "1"
+                    },
+                    {
+                        "id": "7402",
+                        "img": "https://www.boncado.be/vouchers/vou7402.jpg",
+                        "lang": "de",
+                        "public": "1"
+                    },
+                    {
+                        "id": "7372",
+                        "img": "https://www.boncado.be/vouchers/vou7372.jpg",
+                        "lang": "nl",
+                        "public": "1"
+                    },
+                    {
+                        "id": "7371",
+                        "img": "https://www.boncado.be/vouchers/vou7371.jpg",
+                        "lang": "de",
+                        "public": "1"
+                    },
+                    {
+                        "id": "7365",
+                        "img": "https://www.boncado.be/vouchers/vou7365.jpg",
+                        "lang": "all",
+                        "public": "1"
+                    },
+                    {
+                        "id": "2902",
+                        "img": "https://www.boncado.be/vouchers/vou2902.jpg",
+                        "lang": "nl",
+                        "public": "1"
+                    },
+                    {
+                        "id": "2901",
+                        "img": "https://www.boncado.be/vouchers/vou2901.jpg",
+                        "lang": "de",
+                        "public": "1"
+                    },
+                    {
+                        "id": "2900",
+                        "img": "https://www.boncado.be/vouchers/vou2900.jpg",
+                        "lang": "fr",
+                        "public": "1"
+                    },
+                    {
+                        "id": "7370",
+                        "img": "https://www.boncado.be/vouchers/vou7370.jpg",
+                        "lang": "fr",
+                        "public": "1"
+                    },
+                    {
+                        "id": "5709",
+                        "img": "https://www.boncado.be/vouchers/vou5709.jpg",
+                        "lang": "de",
+                        "public": "1"
+                    },
+                    {
+                        "id": "6711",
+                        "img": "https://www.boncado.be/vouchers/vou6711.jpg",
+                        "lang": "nl",
+                        "public": "1"
+                    },
+                    {
+                        "id": "6713",
+                        "img": "https://www.boncado.be/vouchers/vou6713.jpg",
+                        "lang": "fr",
+                        "public": "1"
+                    },
+                    {
+                        "id": "5712",
+                        "img": "https://www.boncado.be/vouchers/vou5712.jpg",
+                        "lang": "nl",
+                        "public": "1"
+                    },
+                    {
+                        "id": "5711",
+                        "img": "https://www.boncado.be/vouchers/vou5711.jpg",
+                        "lang": "fr",
+                        "public": "1"
+                    },
+                    {
+                        "id": "6193",
+                        "img": "https://www.boncado.be/vouchers/vou6193.jpg",
+                        "lang": "all",
+                        "public": "0"
+                    },
+                    {
+                        "id": "6206",
+                        "img": "https://www.boncado.be/vouchers/vou6206.jpg",
+                        "lang": "all",
+                        "public": "0"
+                    },
+                    {
+                        "id": "6187",
+                        "img": "https://www.boncado.be/vouchers/vou6187.jpg",
+                        "lang": "all",
+                        "public": "0"
+                    },
+                    {
+                        "id": "2830",
+                        "img": "https://www.boncado.be/vouchers/vou2830.jpg",
+                        "lang": "all",
+                        "public": "0"
+                    },
+                    {
+                        "id": "6623",
+                        "img": "https://www.boncado.be/vouchers/vou6623.jpg",
+                        "lang": "nl",
+                        "public": "1"
+                    },
+                    {
+                        "id": "3258",
+                        "img": "https://www.boncado.be/vouchers/vou3258.jpg",
+                        "lang": "fr",
+                        "public": "0"
+                    },
+                    {
+                        "id": "7024",
+                        "img": "https://www.boncado.be/vouchers/vou7024.jpg",
+                        "lang": "all",
+                        "public": "1"
+                    },
+                    {
+                        "id": "5209",
+                        "img": "https://www.boncado.be/vouchers/vou5209.jpg",
+                        "lang": "nl",
+                        "public": "1"
+                    },
+                    {
+                        "id": "6622",
+                        "img": "https://www.boncado.be/vouchers/vou6622.jpg",
+                        "lang": "de",
+                        "public": "1"
+                    },
+                    {
+                        "id": "5210",
+                        "img": "https://www.boncado.be/vouchers/vou5210.jpg",
+                        "lang": "de",
+                        "public": "1"
+                    },
+                    {
+                        "id": "5211",
+                        "img": "https://www.boncado.be/vouchers/vou5211.jpg",
+                        "lang": "fr",
+                        "public": "1"
+                    },
+                    {
+                        "id": "3819",
+                        "img": "https://www.boncado.be/vouchers/vou3819.jpg",
+                        "lang": "fr",
+                        "public": "1"
+                    },
+                    {
+                        "id": "5151",
+                        "img": "https://www.boncado.be/vouchers/vou5151.jpg",
+                        "lang": "all",
+                        "public": "1"
+                    },
+                    {
+                        "id": "3820",
+                        "img": "https://www.boncado.be/vouchers/vou3820.jpg",
+                        "lang": "de",
+                        "public": "1"
+                    },
+                    {
+                        "id": "6621",
+                        "img": "https://www.boncado.be/vouchers/vou6621.jpg",
+                        "lang": "fr",
+                        "public": "1"
+                    },
+                    {
+                        "id": "3821",
+                        "img": "https://www.boncado.be/vouchers/vou3821.jpg",
+                        "lang": "nl",
+                        "public": "1"
+                    },
+                    {
+                        "id": "3966",
+                        "img": "https://www.boncado.be/vouchers/vou3966.jpg",
+                        "lang": "de",
+                        "public": "1"
+                    },
+                    {
+                        "id": "3967",
+                        "img": "https://www.boncado.be/vouchers/vou3967.jpg",
+                        "lang": "fr",
+                        "public": "1"
+                    },
+                    {
+                        "id": "3968",
+                        "img": "https://www.boncado.be/vouchers/vou3968.jpg",
+                        "lang": "nl",
+                        "public": "1"
+                    }
+                ],
+                "suggestions": [],
+                "majoration": null
+            },
+            "purchaseProduct": {
+                "name": "purchase_products",
+                "isSubscribed": true
+            },
+            "bookAppointment": {
+                "isSubscribed": true,
+                "deposit_mode": "preauthorization",
+                "settings": {
+                    "hoursRange": {
+                        "start": "08:00",
+                        "end": "16:00"
+                    },
+                    "slotDuration": "60",
+                    "sms": {
+                        "confirmation": {
+                            "enabled": true,
+                            "template": ""
+                        },
+                        "reminder": {
+                            "enabled": true,
+                            "template": "",
+                            "daysBefore": 1,
+                            "hour": 10
+                        }
+                    },
+                    "email": {
+                        "confirmation": {
+                            "enabled": true,
+                            "template": ""
+                        },
+                        "reminder": {
+                            "enabled": true,
+                            "template": "",
+                            "daysBefore": 1,
+                            "hour": 10
+                        }
+                    },
+                    "allowOverlappingEvents": true,
+                    "requireDeposit": false,
+                    "business_hours": [
+                        {
+                            "isOpen": true,
+                            "id": "1",
+                            "label": "Lundi",
+                            "hours": [
+                                {
+                                    "from": "08:00",
+                                    "to": "11:00"
+                                },
+                                {
+                                    "from": "13:00",
+                                    "to": "17:00"
+                                }
+                            ]
+                        },
+                        {
+                            "isOpen": true,
+                            "id": "2",
+                            "label": "Mardi",
+                            "hours": [
+                                {
+                                    "from": "08:00",
+                                    "to": "18:00"
+                                }
+                            ]
+                        },
+                        {
+                            "isOpen": true,
+                            "id": "3",
+                            "label": "Mercredi",
+                            "hours": [
+                                {
+                                    "from": "08:00",
+                                    "to": "18:00"
+                                }
+                            ]
+                        },
+                        {
+                            "isOpen": false,
+                            "id": "4",
+                            "label": "Jeudi",
+                            "hours": [
+                                {
+                                    "from": "08:00",
+                                    "to": "18:00"
+                                }
+                            ]
+                        },
+                        {
+                            "isOpen": true,
+                            "id": "5",
+                            "label": "Vendredi",
+                            "hours": [
+                                {
+                                    "from": "08:00",
+                                    "to": "18:00"
+                                }
+                            ],
+                            "byAppointment": false
+                        },
+                        {
+                            "isOpen": false,
+                            "id": "6",
+                            "label": "Samedi",
+                            "hours": [
+                                {
+                                    "from": "08:00",
+                                    "to": "18:00"
+                                }
+                            ]
+                        },
+                        {
+                            "isOpen": true,
+                            "id": "0",
+                            "label": "Dimanche",
+                            "hours": [
+                                {
+                                    "from": "08:00",
+                                    "to": "11:00"
+                                }
+                            ]
+                        }
+                    ],
+                    "bookingWindow": {
+                        "earliestDays": 0,
+                        "latestDays": 200
+                    }
+                }
+            },
+            "bookTable": {
+                "isSubscribed": true,
+                "deposit_required": true,
+                "deposit_mode": "preauthorization"
+            },
+            "mode": "prod"
+        }
+    },
+    "uid": "a7b4374c-3323-4fd6-ba61-e98f727b920f",
+    "url": null
+}

@@ -1,0 +1,292 @@
+{
+    "session": {
+        "uid": "a7b4374c-3323-4fd6-ba61-e98f727b920f",
+        "theme": {
+            "primaryColor": "#cf0572",
+            "headerColor": "#282828",
+            "titleFont": "Rubik, sans-serif",
+            "textFont": "Nunito, sans-serif",
+            "position": "bottom_right",
+            "borderRadius": "24px",
+            "shadow": "4px 4px 19px 1px rgba(0,0,0,0.4)"
+        },
+        "purchaseVoucher": {
+            "name": "buy_voucher"
+        },
+        "purchaseProduct": {
+            "name": "purchase_products",
+            "enabled": true,
+            "products": null,
+            "formData": {
+                "isPanelActive": false,
+                "currentView": "catalog",
+                "viewHistory": [
+                    "catalog"
+                ],
+                "activeProduct": [],
+                "cart": [],
+                "delivery_option": null,
+                "delivery_type": null,
+                "delivery_vendor": null,
+                "first_name": "",
+                "last_name": "",
+                "email": "",
+                "phone": "",
+                "street": "",
+                "house_number": "",
+                "city": "",
+                "postal": "",
+                "is_billing_same_as_shipping": true,
+                "billing_first_name": "",
+                "billing_last_name": "",
+                "billing_email": "",
+                "billing_phone": "",
+                "billing_street": "",
+                "billing_house_number": "",
+                "billing_city": "",
+                "billing_postal": ""
+            }
+        },
+        "bookAppointment": {
+            "name": "book_appointment",
+            "enabled": true,
+            "deposit_mode": "preauthorization",
+            "services": [
+                {
+                    "id": "2265",
+                    "name": "test",
+                    "color": "rgba(45.966, 97.483, 211.722, 1)",
+                    "duration": "60",
+                    "staff": [
+                        "2232"
+                    ],
+                    "isActive": "true",
+                    "deposit_required": "true",
+                    "deposit_amount": "3"
+                },
+                {
+                    "id": "2280",
+                    "name": "consultation",
+                    "color": "rgba(239.965, 35.258, 35.258, 1)",
+                    "duration": "60",
+                    "staff": [
+                        "2232"
+                    ],
+                    "isActive": "true",
+                    "deposit_required": "true",
+                    "deposit_amount": "5"
+                }
+            ],
+            "formData": {
+                "isPanelActive": false,
+                "viewHistory": [
+                    "category"
+                ],
+                "currentView": "category",
+                "serviceCategory": "",
+                "reservationDate": "",
+                "reservationTime": "",
+                "firstName": "",
+                "lastName": "",
+                "email": "",
+                "phone": "",
+                "payment_method": ""
+            }
+        },
+        "bookTable": {
+            "name": "book_table",
+            "enabled": true,
+            "deposit_required": true,
+            "deposit_mode": "preauthorization",
+            "reservationCategories": [
+                {
+                    "value": "leisure_meal",
+                    "label": "Leisure meal"
+                },
+                {
+                    "value": "professional_meal",
+                    "label": "Professional meal"
+                },
+                {
+                    "value": "fast_meal",
+                    "label": "Fast meal"
+                },
+                {
+                    "value": "bday",
+                    "label": "Birthday"
+                },
+                {
+                    "value": "special_event",
+                    "label": "Special event"
+                },
+                {
+                    "value": "other",
+                    "label": "Other"
+                }
+            ],
+            "reservationRequests": [
+                {
+                    "value": "baby_chair",
+                    "label": "Baby chair"
+                },
+                {
+                    "value": "accesiblity",
+                    "label": "accesiblity"
+                },
+                {
+                    "value": "stroller",
+                    "label": "Stroller"
+                },
+                {
+                    "value": "patio",
+                    "label": "Patio"
+                },
+                {
+                    "value": "allergy_free",
+                    "label": "allergy free"
+                },
+                {
+                    "value": "pet_friendly",
+                    "label": "pet friendly"
+                },
+                {
+                    "value": "in_rush",
+                    "label": "in rush"
+                }
+            ],
+            "formData": []
+        },
+        "calls": [
+            "getMe",
+            "getProducts",
+            "updateData",
+            "updateData",
+            "getMe",
+            "getProducts"
+        ]
+    },
+    "endpoint": {
+        "meta": {
+            "pagination": {
+                "total": 1,
+                "count": 1,
+                "per_page": 50,
+                "current_page": 1,
+                "total_pages": 1
+            },
+            "language": "fr"
+        },
+        "products": [
+            {
+                "id": "1364",
+                "type": "product",
+                "second_hand": false,
+                "name": "Essential CARE",
+                "slug": "essential-care-1",
+                "description": "<p>Lorem Ipsum.</p>",
+                "short_description": "Volume et brillance",
+                "meta_description": "Volume et brillance\nAméliore et maintient la santé des cheveux, favorise la pousse naturelle",
+                "is_visible": true,
+                "is_featured": false,
+                "vendor": "Impulsion SPRLu",
+                "bulk_pricing_rules": null,
+                "date_on_sale": {
+                    "from": null,
+                    "to": null
+                },
+                "warranty": null,
+                "price": {
+                    "is_price_hidden": false,
+                    "min_price": "1.00",
+                    "currency": "EUR",
+                    "tax_included": true
+                },
+                "tax_context": {
+                    "region": "BE",
+                    "customer_type": "b2c",
+                    "is_tax_exempt": false,
+                    "tax_applicable": true,
+                    "tax_rate": 0.20999999999999996,
+                    "tax_rate_coefficient": "1.21"
+                },
+                "weight": "0.00",
+                "dimensions": {
+                    "length": "0.00",
+                    "width": "0.00",
+                    "height": "0.00"
+                },
+                "shipping": {
+                    "deliverable": true,
+                    "reason": false
+                },
+                "tags": [
+                    "Spring",
+                    "Rainwear"
+                ],
+                "categories": null,
+                "brand": null,
+                "featured_image": {
+                    "small": "https://www.boncado.be/img/uploads/1/6930a65635f61.png",
+                    "mediume": "https://www.boncado.be/img/uploads/1/6930a65635f61.png",
+                    "large": "https://www.boncado.be/img/uploads/1/6930a65635f61.png"
+                },
+                "gallery": [
+                    {
+                        "small": "https://www.boncado.be/img/uploads/1/6930a65635f61.png",
+                        "mediume": "https://www.boncado.be/img/uploads/1/6930a65635f61.png",
+                        "large": "https://www.boncado.be/img/uploads/1/6930a65635f61.png"
+                    }
+                ],
+                "videos": null,
+                "has_multiple_variants": false,
+                "variants": [
+                    {
+                        "id": "1364",
+                        "variant_label": null,
+                        "featured_image": null,
+                        "references": {
+                            "gtin": "",
+                            "mpn": "",
+                            "sku": ""
+                        },
+                        "options": {
+                            "size": "S",
+                            "color": "Red"
+                        },
+                        "price": {
+                            "regular_price": "1.00",
+                            "current_price": "1.00"
+                        },
+                        "stock": {
+                            "status": "low",
+                            "is_available": true,
+                            "backorders_allowed": false,
+                            "quantity_limit": 6
+                        }
+                    }
+                ],
+                "options": [
+                    {
+                        "name": "size",
+                        "values": null
+                    },
+                    {
+                        "name": "color",
+                        "values": null
+                    }
+                ],
+                "available_combinations": null,
+                "reviews": null,
+                "custom_fields": null,
+                "related_ids": [],
+                "upsell_ids": [],
+                "cross_sell_ids": [],
+                "flags": [],
+                "created_at": "2014-06-12T16:28:13Z",
+                "updated_at": "2025-06-20T14:00:00Z"
+            }
+        ]
+    },
+    "uid": "a7b4374c-3323-4fd6-ba61-e98f727b920f",
+    "url": null
+}

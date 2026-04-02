@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+.navbar {
+
+    .navbar-toggler {
+        margin-right: -5px;
+        border: 0;
+        color: var(--primary);
+
+        &.collapsed {
+            color: #585858;
+        }
+
+        .navbar-toggler-icon {
+            width: auto;
+            height: auto;
+            background-image: none;
+            font-size: 26px;
+        }
+    }
+}
+

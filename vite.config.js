@@ -17,8 +17,8 @@ export default defineConfig(({ mode }) => ({
       ? {
           lib: {
             entry: "./src/main.ce.js",
-            name: "TableBookingWidget",
-            fileName: "table-booking-widget",
+            name: "BoncadoWidget",
+            fileName: "boncado-widget",
             formats: ["iife"],
           },
           rollupOptions: {
